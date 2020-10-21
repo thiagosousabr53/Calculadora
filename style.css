@@ -1,0 +1,52 @@
+body {
+  background-color: #fffffe;
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background: #272343;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.tela-visor {
+  width: 250px;
+  height: 60px;
+  margin: 50px 0px 10px 0px;
+  border-radius: 5px;
+  background: #a7a9be;
+  border: none;
+  font-size: 1.4em;
+}
+.botao {
+  width: 60px;
+  height: 60px;
+  margin: 1px;
+  background: #00ebc7;
+  color: #272343;
+  border-radius: 5px;
+  border: none;
+}
+
+.botao-dois .botao {
+  margin-bottom: 2px;
+  display: inline;
+  width: 126px;
+  background-color: #ff8906;
+}
+
+.botao-ultimo .botao {
+  margin-top: 2px;
+  display: inline;
+  width: 82px;
+  height: 60px;
+}
+.botao-ultimo .botao-bg-diferente {
+  background-color: #ff8906;
+}
+.botao-ultimo .botao {
+  margin-bottom: 15px;
+}
